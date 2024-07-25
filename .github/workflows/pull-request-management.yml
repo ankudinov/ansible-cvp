@@ -177,7 +177,7 @@ jobs:
           echo "ANSIBLE_FORCE_COLOR=1" >> $GITHUB_ENV
       - uses: actions/checkout@v3
       - name: Run molecule action
-        uses: arista-netdevops-community/action-molecule-avd@v1.1
+        uses: arista-netdevops-community/action-molecule-avd@v1.8.1
         with:
           molecule_parentdir: 'ansible_collections/arista/cvp'
           molecule_command: 'test'
@@ -213,7 +213,7 @@ jobs:
           echo "ANSIBLE_FORCE_COLOR=1" >> $GITHUB_ENV
       - uses: actions/checkout@v3
       - name: Run molecule action
-        uses: arista-netdevops-community/action-molecule-avd@v1.1
+        uses: arista-netdevops-community/action-molecule-avd@v1.8.1
         with:
           molecule_parentdir: 'ansible_collections/arista/cvp'
           molecule_command: 'test'
