@@ -185,6 +185,7 @@ jobs:
           molecule_command: 'test'
           molecule_args: '--scenario-name ${{ matrix.avd_scenario }}'
           pip_file: ansible_collections/arista/cvp/requirements.txt
+          galaxy_file: "ansible_collections/arista/cvp/collections.yml"
           ansible: "${{ matrix.ansible_version }}"
           check_git: true
           check_git_enforced: false
