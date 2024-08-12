@@ -4,3 +4,4 @@ collections:
   - ansible.netcommon
   - community.general
   - community.docker
+  - ansible.posix
